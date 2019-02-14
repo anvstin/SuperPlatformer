@@ -1,0 +1,32 @@
+﻿html {                          /*Propriétés de la balise html*/
+    font-family: Calibri,Arial; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
+    background-color: #FFAA68;                  /*On change la couleur de fond du site*/
+    background-Image:url("../Images/Bitcoin.jpg");    /*On met une image en arrière-plan*/
+    color : #537979;
+}
+
+
+
+table {
+     border-collapse: collapse;     /* On colle les bordures du tableau*/
+}
+td,th{                              /*s'applique aux balises td et th*/
+    border: 1px solid black;        /*bordure noires de 1px*/
+}
+
+th {
+    font-weight: bold;
+}
+
+h1,h2 {             /*s'applique aux balises h1 et h2*/
+    font-weight: bold;
+
+}
+
+a {
+    color: #2AA774;
+}
+
+.img_reduite {      /*Seulement pour la classe*/
+    width:60%;      /*On réduit l'mage à 50% de l'écran pour qu'elle rentre*/
+}
