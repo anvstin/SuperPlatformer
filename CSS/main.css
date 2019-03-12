@@ -1,7 +1,7 @@
 ﻿html {                          /*Propriétés de la balise html*/
     font-family: Calibri,Arial; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
     background-color: #000000;                  /*On change la couleur de fond du site*/
-    background-Image:url("../Images/Bitcoin.jpg");    /*On met une image en arrière-plan*/
+    background-Image:url("../Images/Background.jpg");    /*On met une image en arrière-plan*/
     color : #FFFFFF;
 }
 
