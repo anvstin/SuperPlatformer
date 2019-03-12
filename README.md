@@ -1,3 +1,3 @@
 # Super_Platformer
 
-Will be a README someday
+The SuperPlatformer website. It is still in developpement.
