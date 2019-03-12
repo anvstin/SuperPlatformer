@@ -6,14 +6,6 @@
 }
 
 
-
-table {
-     border-collapse: collapse;     /* On colle les bordures du tableau*/
-}
-td,th{                              /*s'applique aux balises td et th*/
-    border: 1px solid black;        /*bordure noires de 1px*/
-}
-
 th {
     font-weight: bold;
 }
@@ -24,7 +16,7 @@ h1,h2 {             /*s'applique aux balises h1 et h2*/
 }
 
 a {
-    color: #00a1ad;
+    color: #000;
 }
 
 .img_reduite {      /*Seulement pour la classe*/
