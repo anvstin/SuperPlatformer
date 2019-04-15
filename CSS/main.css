@@ -1,23 +1,50 @@
 ﻿html {                          /*Propriétés de la balise html*/
-    font-family: Calibri,Arial; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
+    font-family: Helevetica, Calibri, Arial, Verdana, sans-serif; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
     background-color: #000000;                  /*On change la couleur de fond du site*/
     background-Image:url("../Images/Background.png");    /*On met une image en arrière-plan*/
     color : #FFFFFF;
 }
 
+div{
+    background-color: #088;
+    width: 60%;
+    padding: 20px;
+    border: 20px solid rgb(219, 15, 1);
+    margin: 50px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    background-color: #088;
+    width: 60%;
+    padding: 20px;
+    border: 20px solid rgb(219, 15, 1);
+    margin: 50px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+}
 
 th {
     font-weight: bold;
 }
 
-h1,h2 {             /*s'applique aux balises h1 et h2*/
+h1{
+    text-align: center;
     font-weight: bold;
+}
 
+h2 {             /*s'applique aux balises h1 et h2*/
+    text-indent: 0%;
+    font-weight: bold;
+}
+
+h3 {
+    text-indent: 1%;
 }
 
 a {
-    color: #000;
+    color: rgb(0, 11, 170);
 }
+
 
 .img_reduite {      /*Seulement pour la classe*/
     width:60%;      /*On réduit l'mage à 50% de l'écran pour qu'elle rentre*/
