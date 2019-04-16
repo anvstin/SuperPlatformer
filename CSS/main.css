@@ -5,11 +5,12 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;  
-    color : #FFFFFF;
+    color : rgb(0, 0, 0);
 }
 
-div{
+section{
     background-color: #088;
+    color: rgb(255, 255, 255);
     width: 70%;
     padding: 20px;
     border: 20px solid rgb(219, 15, 1);
@@ -19,6 +20,7 @@ div{
 
 nav{
     background-color: #088;
+    color: rgb(255, 255, 255);
     width: 40%;
     padding: 20px;
     border: 20px solid rgb(219, 15, 1);
