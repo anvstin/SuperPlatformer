@@ -1,7 +1,10 @@
 ﻿html {                          /*Propriétés de la balise html*/
     font-family: Helevetica, Calibri, Arial, Verdana, sans-serif; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
-    background-color: #000000;                  /*On change la couleur de fond du site*/
-    background-Image:url("../Images/Background.png");    /*On met une image en arrière-plan*/
+    background-color: #187700;                  /*On change la couleur de fond du site*/
+    background-Image: url("../Images/Background2.png");    /*On met une image en arrière-plan*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
     color : #FFFFFF;
 }
 
@@ -21,6 +24,16 @@ nav{
     border: 20px solid rgb(219, 15, 1);
     margin: 50px;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 2mm 3mm;
+    text-align: left;
 }
 
 th {
@@ -44,7 +57,6 @@ h3 {
 a {
     color: rgb(0, 11, 170);
 }
-
 
 .img_reduite {      /*Seulement pour la classe*/
     width:60%;      /*On réduit l'mage à 50% de l'écran pour qu'elle rentre*/
