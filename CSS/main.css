@@ -66,3 +66,8 @@ a {
 .same_line {
     display: inline-block;
 }
+
+.invisible{
+    border: 1px transparent;
+}
+
