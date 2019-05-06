@@ -1,11 +1,11 @@
 ﻿html {                          /*Propriétés de la balise html*/
-    font-family: Helevetica, Calibri, Arial, Verdana, sans-serif; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
+    font-family: Helevetica, Calibri, Arial, sans-serif; /*On change la police, le navigateur va d'abord choisir Calibri puis, s'il ne peut pas, Arial*/
     background-color: #187700;                  /*On change la couleur de fond du site*/
-    background-Image: url("../Images/Background2.png");    /*On met une image en arrière-plan*/
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: url("../Images/Background2.png") no-repeat center fixed;    /*On met une image en arrière-plan*/
+    background-size: cover;
     background-attachment: scroll;  
     color : rgb(0, 0, 0);
+    
 }
 
 section{
@@ -44,17 +44,23 @@ th {
 h1{
     text-align: center;
     font-weight: bold;
+    font-size: 30pt;
 }
 
 h2 {
+    font-size: 25pt;
     text-indent: 0%;
     font-weight: bold;
 }
 
 h3 {
+    font-size: 20pt;
     text-indent: 0%;
 }
 
+p{
+    font-size: 15pt;
+}
 a {
     color: rgb(0, 11, 170);
 }
